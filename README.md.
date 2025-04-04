@@ -1,0 +1,24 @@
+# AutoCAD LISP: Survey Data Importer
+
+## 📌 Overview
+This LISP script automates the import of survey data from CSV files into AutoCAD.  
+It creates points, labels, and elevation texts automatically.
+
+## 🚀 Features
+✔️ Read coordinates (Easting, Northing, Elevation, Label)  
+✔️ Create points & text labels  
+✔️ Works with multiple CSV files  
+
+## 🔧 How to Use
+1️⃣ Load the `.lsp` file in AutoCAD using the **APPLOAD** command.  
+2️⃣ Type `IMPORT_SURVEY` in the command line.  
+3️⃣ Select your survey CSV file. **After selecting one file, the selection window will reopen** so you can choose multiple files one by one.  
+4️⃣ When you have selected all files, click **Cancel** to stop.  
+5️⃣ The script will then import the **coordinates and elevation data** automatically!  
+
+## 📜 License
+Free to use and modify!  
+
+---
+
+### **Download the LISP File Here: [SurveyDataImporter.lsp](./SurveyDataImporter.lsp)**
